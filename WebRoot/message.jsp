@@ -1,0 +1,18 @@
+<%@ page language="java" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>消息提示</title>
+</head>
+
+<body style="text-align: center;line-height: 100%;">
+	${message}
+	<br>
+	<input type="button" value="返回" onclick="back()"/>
+	<script type="text/javascript">
+	function back(){
+		history.back();
+	}
+	</script>
+</body>
+</html>

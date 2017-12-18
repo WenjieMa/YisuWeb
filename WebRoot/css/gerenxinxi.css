@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+.xinxi_touxiang {
+	width: 45px;
+	height: 45px;
+	vertical-align: middle;
+}
+
+.xinxi_touxiang_original {
+	width: 45px;
+	height: 45px;
+	vertical-align: middle;
+}
+
+.xinxi_touxiang_div {
+	width: 45px;
+	height: 45px;
+	margin: 0;
+	float: left;
+	border: solid white;
+}
+
+img {
+	-webkit-animation-name: fadeIn; /*动画名称*/
+	-webkit-animation-duration: 0.5s; /*动画持续时间*/
+	-webkit-animation-iteration-count: 0; /*动画次数*/
+	-webkit-animation-delay: 0s; /*延迟时间*/
+}
+
+.zhanshi_tx {
+	-webkit-animation-name: fadeIn; /*动画名称*/
+	-webkit-animation-duration: 0.1s; /*动画持续时间*/
+	-webkit-animation-iteration-count: 0; /*动画次数*/
+	-webkit-animation-delay: 0s; /*延迟时间*/
+}
+
+.touxiangzhonglei_div {
+	width: 680px;
+	height: 100px;
+}
+
+#touxiangs_div {
+	border: solid;
+	border-color: gray;
+	width: 700px;
+	height: 250px;
+	overflow: auto;
+	display: none;
+	-webkit-animation-name: fadeIn; /*动画名称*/
+	-webkit-animation-duration: 0.5s; /*动画持续时间*/
+	-webkit-animation-iteration-count: 1; /*动画次数*/
+	-webkit-animation-delay: 0s; /*延迟时间*/
+}

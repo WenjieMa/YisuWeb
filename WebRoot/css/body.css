@@ -1,0 +1,55 @@
+body {
+	background-repeat: repeat;
+	z-index: 0;
+	height: 70%;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+#all{
+	padding-top: 99px;
+	text-align: center;
+}
+.hid {
+	display: none;
+}
+.show {
+	display: show;
+}
+
+@-webkit-keyframes fadeIn { 
+	0% {
+	opacity: 0; /*初始状态 透明度为0*/
+	}
+	50%{
+	opacity:0; /*中间状态 透明度为0*/
+	}
+	100%{
+	opacity:1; /*结尾状态 透明度为1*/
+	}
+}
+*{
+	-webkit-animation-name: fadeIn; /*动画名称*/
+	-webkit-animation-duration: 1.2s; /*动画持续时间*/
+	-webkit-animation-iteration-count: 1; /*动画次数*/
+	-webkit-animation-delay: 0s; /*延迟时间*/
+}
+a:link {
+	text-decoration: none;
+	color: #5b2b06;
+}
+
+a:visited {
+	color: #5b2b06;
+}
+
+a:active {
+	color: #da880e;
+}
+
+a:hover {
+	color: #da880e;
+	-webkit-transition: all .4s ease-out;
+	-moz-transition: all .4s ease-out;
+	-o-transition: all .4s ease-out;
+	transition: all .4s ease-out;
+}

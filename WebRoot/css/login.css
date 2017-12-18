@@ -1,0 +1,116 @@
+#denglu_body {
+	background: url('../pic/background/background_simpe/5-120601095942.jpg');
+	height: 500px;
+}
+
+#tijiao {
+	display: none;
+	width: 0px;
+	height: 0px;
+}
+
+#mimacuowu {
+	font-size: 10px;
+	color: red;
+	position: absolute;
+	margin-left: 28px;
+	margin-top: 5px;
+	display: none;
+}
+
+#denglu_zuoce {
+	width: 716px;
+	height: 495px;
+	z-index: 2;
+	padding-left: 100px;
+	padding-top: 140px;
+}
+
+#denglu_tubiao {
+	position: absolute;
+	padding-left: 880px;
+	z-index: 2;
+}
+
+#denglu_xuanzequan {
+	margin-top: -450px;
+	margin-left: 600px;
+	position: absolute;
+	float: left;
+}
+
+#denglu_denglukuang {
+	background: url("../pic/denglukuang_zhengshi.jpg");
+	width: 336px;
+	height: 389px;
+	margin-top: -490px;
+	margin-left: 800px;
+	z-index: 2;
+	position: absolute;
+}
+
+#denglu_zhuce {
+	margin-left: 90px;
+	margin-top: 85px;
+}
+#denglu_oper{
+	margin-left: 135px;
+	margin-top: 100px;
+	
+	}
+
+.denglu_tubiao_tupian {
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+}
+
+.denglu_denglukuang_anniu {
+	position: absolute;
+	width: 284px;
+	height: 40px;
+	margin-left: 27px;
+	margin-top: 40px;
+}
+
+#img1 {
+	width: 516px;
+	height: 395px;
+	z-index: 2;
+}
+
+#img2 {
+	width: 516px;
+	height: 395px;
+	z-index: 2;
+}
+
+#img3 {
+	width: 516px;
+	height: 395px;
+	z-index: 2;
+}
+
+li {
+	margin-top: 50px;
+	border-radius: 40px;
+	width: 40px;
+	height: 40px;
+	background: #a3520a;
+	list-style: none;
+}
+
+.denglu_yonghuming {
+	margin-left: 27px;
+	margin-top: 109px;
+	width: 282px;
+	height: 40px;
+}
+
+.mima {
+	margin-top: 30px;
+}
+
+.zhuce_wangji {
+	color: #703a09;
+}

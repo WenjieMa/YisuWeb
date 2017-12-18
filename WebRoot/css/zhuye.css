@@ -1,0 +1,344 @@
+body {
+	background:
+		url('../pic/background/background_woods/wooden_back (3).jpg');
+}
+#zhuye_touxiang{
+		width: 45px;
+	height: 45px;
+	vertical-align: middle;
+}
+.morning{
+	display:none;
+	z-index:10;
+	margin-left:30rem;
+	margin-top:2rem;
+	background-color:#CC9966;
+	line-height:246px;
+	text-align:center;
+	font-family:monospace;
+	height:246px;
+	width:400px;
+	position:absolute;
+	position: fixed;
+}
+.sousuo {
+	position:absolute;
+	width:494px;
+	height: 36px;
+	margin-left:-624px;
+	z-index: 50;
+	margin-top: 2px;
+}
+.shouye_xiabu_goods_div{
+margin-left: 130px;	
+}
+#sousuo_anniu{
+	background-color: none;
+	width: 128px;
+	height: 40px;
+	margin-left: 860px;
+	margin-top: -40px;
+	z-index: 1;
+	position: absolute;
+	}
+#huanyin {
+	font-family: "Arial", "Microsoft YaHei", sans-serif;
+	width: 100%;
+	background-color: none;
+	z-index: 999;
+	text-align: center;
+	color: #A0522D;
+}
+.kaishi_text {
+	font-family: "Arial", "Microsoft YaHei", sans-serif;
+	position: relative;
+	width: 100%;
+	background-color: none;
+	z-index: 1;
+	text-align: center;
+	color: #A0522D;
+}
+
+#shouye_zhongbu {
+	width: 100%;
+	height: 485px;
+}
+
+.shouye_biao {
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	margin-left: -40px;
+	font-style: inherit;
+	font-family: "Arial", "Microsoft YaHei", sans-serif;
+	font-size: 40px;
+}
+
+#shouye_xiabu_cainixihuan_text {
+	font-style: inherit;
+	font-family: "Arial", "Microsoft YaHei", sans-serif;
+	font-size: 80px;
+}
+
+.yishang {
+	width: 25%;
+	height: 250px;
+	background:
+		url('../pic/background/background_woods/wooden_back-(46_low_light).png');
+	line-height: 235px;
+	font-weight: bolder;
+	float: left;
+}
+
+.zoukai {
+	width: 25%;
+	height: 250px;
+	background:
+		url('../pic/background/background_woods/wooden_back-(46_light).png');
+	line-height: 250px;
+	font-weight: normal;
+	float: left;
+}
+
+.shouye_biao_xuanxiang {
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	margin-top: 381px;
+	background-color: white;
+	z-index: 999;
+	display: none;
+}
+
+.shouye_biao_xiala_ul {
+	list-style: none;
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-style: inherit;
+	font-family: "Arial", "Microsoft YaHei", sans-serif;
+	font-size: 40px;
+}
+ul{
+		list-style: none;
+}
+.shouye_biao_xiala_li {
+	width: 25%;
+	height: 250px;
+	line-height: 350px;
+	text-align: center;
+	float: left;
+}
+
+.shouye_biao_xiala_li_img {
+	width: 150px;
+	height: 150px;
+	margin-left: -110px;
+	position: absolute;
+}
+
+.shouye_biao_xiala_li_word {
+	margin-left: -70px;
+}
+
+#shouye_xiabu {
+	width: 80%;
+	height: 4500px;
+	margin-left: 10%;
+	margin-top: 400px;
+	background-color: #ffffff;
+}
+
+/* 木马翻转css */
+.content-main {
+	position: relative;
+	width: 800px;
+	height: 411px;
+	background: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.content-btn {
+	position: absolute;
+	width: 100px;
+	height: 411px;
+	background: none;
+	z-index: 10;
+	cursor: pointer;
+}
+
+.prev-btn {
+	left: 0;
+	top: 0;
+}
+
+.next-btn {
+	right: 0;
+	top: 0;
+}
+
+.btn-img {
+	opacity: 0.8;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.list {
+	width: 800px;
+	height: 411px;
+}
+
+.list li {
+	position: absolute;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+
+.img_gundongxuanchuan {
+	width: 660px;
+	height: 395px;
+}
+/* end 真空翻转css */
+.wrapper {
+	max-width: 90rem;
+	margin: 0 auto;
+	margin-left:-17rem;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin-bottom: 3rem;
+}
+
+.box {
+	margin-top: 1rem;
+	margin-left:10rem;
+	width: 15rem;
+	height: 20rem;
+	padding: 0 2rem 3rem;
+	-webkit-transition: opacity 0.5s linear 0.3s, -webkit-transform 0.3s
+		linear 0s, -webkit-filter 0.5s linear 0.3s;
+	transition: opacity 0.5s linear 0.3s, -webkit-transform 0.3s linear 0s,
+		-webkit-filter 0.5s linear 0.3s;
+	transition: transform 0.3s linear 0s, filter 0.5s linear 0.3s, opacity
+		0.5s linear 0.3s;
+	transition: transform 0.3s linear 0s, filter 0.5s linear 0.3s, opacity
+		0.5s linear 0.3s, -webkit-transform 0.3s linear 0s, -webkit-filter
+		0.5s linear 0.3s;
+	/*transform-origin: top center;*/
+}
+
+.product {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.2rem;
+	background-color: #fff;
+	background-position: top 3rem center;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+	-webkit-transition: box-shadow 0.5s linear, height 0.1s linear 0s;
+	transition: box-shadow 0.5s linear, height 0.1s linear 0s;
+}
+
+.mingzi {
+	display: block;
+	padding: 1rem 0.5rem;
+	text-align: center;
+}
+
+.description {
+	position: absolute;
+	bottom: 1rem;
+	left: 0;
+	right: 0;
+	display: block;
+	padding: 0 1.5rem;
+	opacity: 0;
+	-webkit-transition: opacity 0.1s linear 0s;
+	transition: opacity 0.1s linear 0s;
+	text-align: center;
+}
+
+.wrapper:hover.box:not(:hover)
+{
+-webkit-filter
+:blur(3px);
+filter:blur(3px);
+opacity:0.5;
+}
+.box:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: opacity 0.1s linear 0s, -webkit-transform 0.3s
+		linear 0.3s, -webkit-filter 0.1s linear 0s;
+	transition: opacity 0.1s linear 0s, -webkit-transform 0.3s linear 0.3s,
+		-webkit-filter 0.1s linear 0s;
+	transition: transform 0.3s linear 0.3s, filter 0.1s linear 0s, opacity
+		0.1s linear 0s;
+	transition: transform 0.3s linear 0.3s, filter 0.1s linear 0s, opacity
+		0.1s linear 0s, -webkit-transform 0.3s linear 0.3s, -webkit-filter
+		0.1s linear 0s;
+}
+
+.box:hover .product {
+	height: 25rem;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+	-webkit-transition: box-shadow 1s linear, height 0.3s linear 0.5s;
+	transition: box-shadow 1s linear, height 0.3s linear 0.5s;
+}
+
+.box:hover .description {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s linear 0.75s;
+	transition: opacity 0.3s linear 0.75s;
+}
+
+.goods_single {
+	width: 100%;
+	height: 270px;
+}
+
+.price {
+	font-size: 25px;
+	font-weight: bolder;
+	color: red;
+	margin-top: 360px;
+	margin-left: -200px;
+	z-index: 300;
+}
+
+h1,p {
+	font-family: monospace;
+	font-weight: 300;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.5);
+	-webkit-animation-name: fadeIn; /*动画名称*/
+	-webkit-animation-duration: 1s; /*动画持续时间*/
+	-webkit-animation-iteration-count: 1; /*动画次数*/
+	-webkit-animation-delay: 0s; /*延迟时间*/
+}
+
+h1,h1+p {
+	margin: 2rem 1rem;
+}
+

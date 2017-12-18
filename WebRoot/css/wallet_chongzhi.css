@@ -1,0 +1,39 @@
+@CHARSET "UTF-8";
+#big {
+	clear:both;
+	width: 100%;
+}
+
+.money_text {
+	font-family: "Arial", "Microsoft YaHei", sans-serif;
+	color: #A0522D;
+	text-align: center;
+	font-size: 25px;
+}
+
+#money_shuzi {
+	font-family: "Arial", "Microsoft YaHei", sans-serif;
+	color: red;
+	text-align: center;
+	font-size: 35px;
+}
+
+#money_show {
+	width: 100%;
+	text-align: center;
+}
+
+#money_gongnenganniu {
+	text-align: center;
+}
+#chongzhi_zfbtupian{
+	width: 100%;
+
+	}
+.zfb_tupian{
+	width: 200px;
+	height: 300px;
+	display: none;
+	margin-left: 40%;
+	}
+	

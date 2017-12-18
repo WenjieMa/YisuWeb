@@ -1,0 +1,190 @@
+#all {
+	padding-top: 99px;
+}
+
+#shouye_toubu {
+	background: url('../pic/dingbulan.jpg');
+	height: 69px;
+	width: 100%;
+	z-index: 998;
+	position: fixed;
+}
+
+#yonghuming_shouye {
+	margin-left: 45px;
+}
+
+#header_touxiang {
+	width: 45px;
+	height: 45px;
+	vertical-align: middle;
+	position: absolute;
+	margin-top: -10px;
+	margin-left: -45px;
+}
+
+#sousuoneirong_header {
+	position: absolute;
+	width: 180px;
+	height: 28px;
+	margin-left: 0px;
+	margin-top: -2px;
+}
+
+#sousuo_text {
+	position: absolute;
+	margin-left: 200px;
+	height: 25px;
+	width: 100px;
+	line-height: 25px;
+}
+
+#sousuo_header_img {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+}
+
+#shezhilan {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	margin-left: 649px;
+	margin-top: 58px;
+	background-color: white;
+	display: none;
+	z-index: 999;
+	border: 1px solid #000;
+	border-top-color: white;
+}
+
+.shezhi_ul {
+	margin-left: -40px;
+	margin-top: -8px;
+}
+
+.shezhi_li {
+	text-align: center;
+	width: 60px;
+	height: 20px;
+	font-size: 10px;
+}
+
+#now {
+	margin-left: 190px;
+	margin-top: 23px;
+	width: 150px;
+	height: 68px;
+	float: left;
+	font-size: 14px;
+	font-family: "Arial", "Microsoft YaHei", sans-serif;
+	color: #855004;
+}
+
+#nowtime {
+	margin-top: 23px;
+	margin-left: 81%; position : absolute;
+	width: 160px;
+	height: 68px;
+	position: absolute;
+}
+
+.shouye_toubu_tubiao {
+	width: 65px;
+	height: 65px;
+	float: left;
+}
+
+.shouye_toubu_shuxing_ul {
+	padding-top: 8px;
+	float: left;
+	list-style: none;
+	font-size: 14px;
+}
+
+.shouye_toubu_shuxing_li {
+	width: 80px;
+	float: left;
+	height: 32px;
+	font-family: "Arial", "Microsoft YaHei", sans-serif;
+}
+
+.gouwuche {
+	width: 105px;
+}
+
+.yonghuming {
+	width: 170px;
+	margin-left: -50px;
+}
+
+.chaxun_img {
+	margin-left: 20px;
+	width: 25px;
+	height: 25px;
+}
+
+.tubiao {
+	width: 20px;
+	height: 20px;
+	vertical-align: center;
+}
+
+#gouwuche_shouye_shuliang {
+	height: 32px;
+	font-family: "Arial", "Microsoft YaHei", sans-serif;
+	
+}
+#shuliang_shouye_text_div{
+	margin-left: 65px;
+	margin-top: -17px;
+}
+/*时钟翻转css*/
+.time_ul {
+	list-style: none;
+	position: relative;
+	margin: 0px 140px;
+}
+
+.time_ul li {
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+	width: 13px;
+	height: 21px;
+}
+
+.time_ul li img {
+	display: block;
+	position: absolute;
+}
+
+.time_ul li .pic01 {
+	top: 0;
+}
+
+.time_ul li .pic02 {
+	top: 21px;
+}
+/*end*/
+
+/*抛物线css*/
+.quick_links {
+	top: 50%;
+	left: 0;
+	z-index: 2;
+}
+
+.fly_item {
+	border: 1px solid gray;
+	width: 38px;
+	height: 38px;
+	overflow: hidden;
+	position:absolute;
+	visibility: hidden;
+	opacity: .5;
+	filter: alpha(opacity = 50);
+	z-index: 999;
+}
+/*抛物线css end*/

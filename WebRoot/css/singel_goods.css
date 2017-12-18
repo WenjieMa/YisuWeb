@@ -1,0 +1,71 @@
+@CHARSET "UTF-8";
+body{
+	background: url('../pic/background/background_simpe/5-120601095942.jpg');
+}
+#toubu_goodsshow{
+	width: 100%;
+	height: 500px;
+	background-color: gray;	
+}
+
+#xiabu_jieshao{
+	width: 100%;
+	height: 800px;
+	background-color: blue;	
+	
+}
+#img_goods_zhanshi{
+	margin-left: 5%;
+	margin-top: 5%;
+}
+
+#text_goods_name{
+	position:absolute;
+	margin-left: 15px;	
+	margin-top: 5%;
+	
+	
+}
+#text_shuliang{
+	width: 50px;
+	height: 30px;
+	
+	}
+#addToShoppingCart_div{
+	height:50px;
+	width: 130px;
+	background-color: red;
+}
+#addToShoppingCart_text{
+	line-height:50px;
+	color: black;
+}
+
+#addToShoppingCart_img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+#shoucang_div{
+	height:50px;
+	width: 70px;
+	background-color: yellow;
+}
+#shoucang_text{
+	line-height:50px;
+	color: black;
+}
+
+#shoucang_img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+
+#text_goods_jianjie{
+	font-size: 14px;
+}
+#text_goods_jiage{
+	color:red;
+}
