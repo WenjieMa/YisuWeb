@@ -74,7 +74,7 @@ public class HqlDAO extends HibernateDaoSupport {
 
 	// 获取session1
 	public Session getSessionFromSpring() {
-		return super.getHibernateTemplate().execute(new HibernateCallback() {
+		return (Session) super.getHibernateTemplate().execute(new HibernateCallback() {
 			@Override
 			public Object doInHibernate(Session session)
 					throws HibernateException, SQLException {
