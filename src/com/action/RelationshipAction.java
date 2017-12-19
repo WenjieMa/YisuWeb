@@ -47,7 +47,7 @@ public class RelationshipAction extends HttpServlet {
 						+ change.changCode(ctif.getUnicheng()) + "','friPicPath':'" + FriPicPath
 						+ "'},");
 			}
-			str.replace(str.length() - 1, str.length(), "]");
+			str=str.replace(str.length() - 1, str.length(), "]");
 
 			try {
 				response.getWriter().print(str.toString());
@@ -89,7 +89,7 @@ public class RelationshipAction extends HttpServlet {
 							+ "','friacId':'" + ctif.getAcId()
 							+ "','friPicPath':'" + FriPicPath + "'},");
 				}
-				str.replace(str.length() - 1, str.length(), "]");
+				str=str.replace(str.length() - 1, str.length(), "]");
 
 				response.getWriter().print(str.toString());
 			} else {
@@ -165,7 +165,7 @@ public class RelationshipAction extends HttpServlet {
 							+ URLEncoder.encode(ctif.getInfoUserByAcSenduId().getUnicheng(),"UTF-8")
 							+ "','friPicPath':'" + FriPicPath + "'},");
 				}
-				str.replace(str.length() - 1, str.length(), "]");
+				str=str.replace(str.length() - 1, str.length(), "]");
 
 				response.getWriter().print(str.toString());
 			} else {
@@ -200,7 +200,7 @@ public class RelationshipAction extends HttpServlet {
 							+ URLEncoder.encode(ctif.getInfoUserByAcSenduId().getUnicheng(),"UTF-8")
 							+ "','friPicPath':'" + FriPicPath + "'},");
 				}
-				str.replace(str.length() - 1, str.length(), "]");
+				str=str.replace(str.length() - 1, str.length(), "]");
 
 				response.getWriter().print(str.toString());
 			} else {
@@ -236,7 +236,7 @@ public class RelationshipAction extends HttpServlet {
 							+ URLEncoder.encode(ctif.getInfoUserByAcSenduId().getUnicheng(),"UTF-8")
 							+ "','friPicPath':'" + FriPicPath + "'},");
 				}
-				str.replace(str.length() - 1, str.length(), "]");
+				str=str.replace(str.length() - 1, str.length(), "]");
 
 				response.getWriter().print(str.toString());
 			} else {
@@ -272,7 +272,7 @@ public class RelationshipAction extends HttpServlet {
 							+ URLEncoder.encode(ctif.getUnicheng(),"UTF-8") + "','friPicPath':'"
 							+ FriPicPath + "'},");
 				}
-				str.replace(str.length() - 1, str.length(), "]");
+				str=str.replace(str.length() - 1, str.length(), "]");
 
 				response.getWriter().print(str.toString());
 			} else {
@@ -300,7 +300,7 @@ public class RelationshipAction extends HttpServlet {
 							+ URLEncoder.encode(ctif.getUnicheng(),"UTF-8") + "','friPicPath':'"
 							+ FriPicPath + "'},");
 				}
-				str.replace(str.length() - 1, str.length(), "]");
+				str=str.replace(str.length() - 1, str.length(), "]");
 
 				response.getWriter().print(str.toString());
 			} else {
@@ -343,7 +343,7 @@ public class RelationshipAction extends HttpServlet {
 						+ "','chatPerson':'" + change.changCode(ctif.getInfoUser().getUnicheng())
 						+ "','chatText':'" + change.changCode(ctif.getRecordText()) + "'},");
 			}
-			str.replace(str.length() - 1, str.length(), "]");
+			str=str.replace(str.length() - 1, str.length(), "]");
 			response.getWriter().print(str.toString());
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -402,7 +402,7 @@ public class RelationshipAction extends HttpServlet {
 							+ change.changCode(ctif.getInfoUser().getUnicheng())
 							+ "','chatText':'" + change.changCode(ctif.getRecordText()) + "'},");
 				}
-				str.replace(str.length() - 1, str.length(), "]");
+				str=str.replace(str.length() - 1, str.length(), "]");
 				response.getWriter().print(str.toString());
 			}
 		} catch (IOException e) {
