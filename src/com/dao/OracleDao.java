@@ -5,6 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Types;
 
 public class OracleDao {
 	Connection connection;
@@ -31,18 +32,21 @@ public class OracleDao {
 		call= connection.prepareCall(sql.toString());  
 		int NUM=1;
 		call.setObject(NUM, proName);  
+		NUM++;
+		call.registerOutParameter(NUM, Types.INTEGER);  
 		for (Object object : params) {
 			NUM++;
-			call.setObject(NUM, object);  
+			call.setObject(NUM, object.toString());  
 		}
 	}
 
 	public Integer insertOrUpdateOrDelete(String proName,Integer status,Object ...params) throws SQLException{
 		create();
 		callExecute(proName,status,params);
-		int FLAG= call.executeUpdate(); 
+		call.executeUpdate(); 
+		int flag=call.getInt(2);
 		close();
-		return status;
+		return flag;
 	}
 	
 }
