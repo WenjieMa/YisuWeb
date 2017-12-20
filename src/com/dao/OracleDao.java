@@ -36,37 +36,13 @@ public class OracleDao {
 			call.setObject(NUM, object);  
 		}
 	}
-	public boolean exists(String proName,Object ...params) throws SQLException{
+
+	public Integer insertOrUpdateOrDelete(String proName,Integer status,Object ...params) throws SQLException{
 		create();
-		callExecute(proName,params);
-		rs= call.executeQuery(); 
-		close();
-		if(rs!=null){
-			return true;
-		}
-		return false;
-	}
-	
-	public ResultSet search(String proName,Object ...params) throws SQLException{
-		create();
-		callExecute(proName,params);
-		rs= call.executeQuery(); 
-		close();
-		if(rs!=null){
-			return rs;
-		}
-		return null;
-	}
-	
-	public boolean insertOrUpdateOrDelete(String proName,Object ...params) throws SQLException{
-		create();
-		callExecute(proName,params);
+		callExecute(proName,status,params);
 		int FLAG= call.executeUpdate(); 
 		close();
-		if(FLAG!=0){
-			return true;
-		}
-		return false;
+		return status;
 	}
 	
 }
